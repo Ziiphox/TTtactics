@@ -4,7 +4,8 @@ div {
 }
 
 button {
-	border: none;
+	margin: 0;
+	border: 0;
 	outline: none;
 	cursor: pointer;
 }
@@ -24,18 +25,21 @@ body {
 	position: absolute;
 }
 
+
 .buttoncontainer {
 	height: inherit;
 	background-color: inherit;
-	position: inherit;
+	font-family: "Bebas Neue";
+	font-size: 3vh;
 }
 
+
 .headbutton {
+	height: inherit;
+	background-color: inherit;
 	font-family: inherit;
 	font-size: inherit;
-	height:inherit;
-	position:inherit;
-	background-color: #eee;
+	display: inline-block;
 	transition: 0.075s;
 }
 
@@ -47,18 +51,20 @@ body {
 	background-color: #aaa;
 }
 
+.game {
+	padding-top: 6vh;
+}
+
 .sidebar {
 	background-color: #0fa;
 	width: 20vw;
 	height: 94vh;
 	position: static;
 	float: right;
-	padding-top: 6vh;
 }
 
 .gameboard {
 	background-color: #fa0;
 	width: 80vw;
 	height: 94vh;
-	padding-top: 6vh;
 }

@@ -6,5 +6,11 @@ document.addEventListener("DOMContentLoaded", (event) => {
 
 // loads after css
 window.addEventListener("load", (event) => {
-	document.getElementsByClassName("buttoncontainer")[0].innerHTML = "testies"
+	const buttonnames = ["placeholder", "lorem", "ipsum", "dolor", "sit"]
+	buttons = ""
+	for (index of buttonnames) {
+		buttons+= `<button class="headbutton">${index}</button> and `
+	}
+	document.getElementsByClassName("buttoncontainer")[0].innerHTML = buttons
+	
 });
