@@ -1,0 +1,64 @@
+div {
+	margin: 0;
+	border:0;
+}
+
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+p {
+	margin: 0;
+}
+
+body {
+	margin: 0;
+}
+
+.headbar {
+	width: 100vw;
+	height: 6vh;
+	background-color: #f0f0f0;
+	position: absolute;
+}
+
+.buttoncontainer {
+	height: inherit;
+	background-color: inherit;
+	position: inherit;
+}
+
+.headbutton {
+	font-family: inherit;
+	font-size: inherit;
+	height:inherit;
+	position:inherit;
+	background-color: #eee;
+	transition: 0.075s;
+}
+
+.headbutton:hover {
+	background-color: #aaa;
+}
+
+.headbutton:active {
+	background-color: #aaa;
+}
+
+.sidebar {
+	background-color: #0fa;
+	width: 20vw;
+	height: 94vh;
+	position: static;
+	float: right;
+	padding-top: 6vh;
+}
+
+.gameboard {
+	background-color: #fa0;
+	width: 80vw;
+	height: 94vh;
+	padding-top: 6vh;
+}
