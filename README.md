@@ -1,4 +1,4 @@
-This is a (somewhat) recreation of a game I heard about in a GDC talk I heard a few years ago that i could not get out of my head.
+This is a (somewhat) recreation of a game I heard about in a GDC talk a few years ago that i could not get out of my head.
 ---
 The original name cited in the talk was **Tank Turns Tactics** and the basic rules are as follows:
 + Each player gains one energy per day
