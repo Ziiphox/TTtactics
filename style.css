@@ -56,7 +56,7 @@ body {
 }
 
 .sidebar {
-	background-color: #0fa;
+	background-color: #bcbcbf;
 	width: 20vw;
 	height: 94vh;
 	position: static;
@@ -64,7 +64,7 @@ body {
 }
 
 .gameboard {
-	background-color: #fa0;
+	background-color: #afafaf;
 	width: 80vw;
 	height: 94vh;
 }
